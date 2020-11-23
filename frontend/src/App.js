@@ -5,13 +5,7 @@ import "./styles.css";
 
 export default function App() {
   //const count = useSelector((state) => state.counter.count);
-  const voters = [
-    "Anthony Sistilli ",
-    "Bob Smith",
-    "Stephanie Foo",
-    "Kevin Ma",
-    "Paayk Ma",
-  ];
+  const voters = ["Anthony Sistilli ", "Bob Smith"];
   return (
     <div className="App">
       <h1>Redux made easy</h1>
