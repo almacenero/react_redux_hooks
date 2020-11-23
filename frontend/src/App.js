@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Counter from "./Counter";
 import "./styles.css";
+import Todo from "./components/Todo";
 
 export default function App() {
   const count = useSelector((state) => state.counter.count);
@@ -13,6 +14,7 @@ export default function App() {
       {voters.map((voter) => (
         <Counter name={voter} />
       ))}
+      <Todo />
     </div>
   );
 }
